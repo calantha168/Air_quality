@@ -57,7 +57,7 @@ def get_rmse_and_batches(model, weights, output_weights, inputs, targets):
 def main():
     np.random.seed(RANDOM_SEED)
 
-    raw = load_all_stations(base_url="https://raw.githubusercontent.com/calantha168/Air_quality/main/data")
+    raw = load_all_stations()
 
     processor = Preprocessor()
     processed = processor.fit(raw)
