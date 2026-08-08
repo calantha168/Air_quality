@@ -26,6 +26,8 @@ Files
         
         time_blocks.py — Creating definitions for time blocks.
 
+        ploy_results.py - Creates 4 plot based on outputs.
+
     Dataset
     The model uses PM2.5 as the target variable and creates 24-hour sequences from the selected features.
 
