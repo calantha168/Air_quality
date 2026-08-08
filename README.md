@@ -4,6 +4,7 @@ PM2.5 Prediction Using LSTM
 This project predicts PM2.5 air pollution levels using an LSTM model implemented from scratch. It uses the Beijing Multi-Site Air Quality dataset, containing hourly measurements from 12 monitoring stations.
 
 Files
+       
         main.py — Runs the complete pipeline, including preprocessing, sequence generation, hyperparameter tuning, baseline   
         training, and ensemble training.
         
